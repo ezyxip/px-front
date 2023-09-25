@@ -1,0 +1,13 @@
+.header{
+    background-color: #313668;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu{
+    width: 49px;
+    height: 49px;
+    cursor: pointer;
+}
