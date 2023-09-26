@@ -33,3 +33,28 @@
     /*border-width: 10px;*/
     border: 1px solid #F15156;
 }
+
+.login-form__error-label--animation{
+    animation-duration: 0.5s;
+    animation-name: loginFormAnimation;
+    animation-timing-function: ease-in-out;
+}
+
+.login-form__error-label{
+    margin: 1em;
+    font-weight: bold;
+}
+
+@keyframes loginFormAnimation {
+    from{
+        color: black;
+    }
+
+    30%{
+        color: red;
+    }
+
+    to{
+        color: black;
+    }
+}

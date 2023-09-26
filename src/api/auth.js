@@ -35,3 +35,7 @@ export function getCredentials(){
         };
     }
 }
+
+export function logout(){
+    user = undefined
+}
