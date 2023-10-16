@@ -7,7 +7,10 @@
 }
 
 .header__menu{
-    width: 49px;
-    height: 49px;
+    width: 45px;
     cursor: pointer;
+}
+
+.header__title{
+    height: 45px;
 }

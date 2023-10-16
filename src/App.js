@@ -4,6 +4,7 @@ import * as React from "react";
 import "./common.css"
 import {Dummy} from "./pages/dummy";
 import {LoginPage} from "./pages/login_page";
+import {UsersPage} from "./pages/users_page";
 
 const router = createBrowserRouter([
 
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
     },
     {
         path:"/app/admin/users",
-        element: <Dummy/>
+        element: <UsersPage/>
     },
     {
         path:"/app/admin/events",
